@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Daft Font;
+    src: url(daft_font.ttf) format("truetype");
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Daft Font";
+}
+body {
+    background: url("bg.jpg");
+    background-size: cover;
+}
+.background {
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid rgba(255,255,255, 0.2);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.playerX {
+    color: #EA422C;
+}
+
+.playerO {
+    color: #498AFB;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+button:hover {
+    color: #1400C2;
+    transition: .6s ease;
+}
+#reset:hover {
+    background-color: white;
+}
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #1400C2;
+    margin-top: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    padding-left: 12px;
+    margin-bottom: 0;
+}
+footer {
+    font-size: 20px;
+    float: right;
+    color: white;
+    z-index: 4;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
