@@ -18,3 +18,5 @@ This application allows users to play a simple game of Tic-Tac-Toe. I created th
   </ul>
 <h2>Planning</h2>
 Firstly, I started out with designing the lay-out of the web page so i could have an idea of how I want the structure and skeleton of the web page to look like. Second, i started out with the HTML. As Tic Tac Toe is played in a 3x3 grid, i created 9 divs to house the Xs and OS. Moving on to the CSS, I used Flexbox so the 3x3 tiles could have a responsive layout, and be played with ease on different devices with different viewports. I also implemented some extra animations like hover, over the reset button so the project could have that aesthetic feel. Moving on to the core of the Project, the JS file. I declared some initial variables like my gameboard cells (an array with 9 indeces of all empty strings), also that the current player is X and the winnig conditions ( Player X won / Player O won / Tie ).
+<h2>Wireframe:</h2>
+![Skeleton](https://imgur.com/HC3xuIP)
