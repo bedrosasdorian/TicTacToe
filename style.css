@@ -1,6 +1,6 @@
 @font-face {
     font-family: Daft Font;
-    src: url(daft_font.ttf) format("truetype");
+    src: url(daft_font.TTF) format("truetype");
 }
 * {
     padding: 0;
